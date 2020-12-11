@@ -13,7 +13,7 @@
 class SimpleStyle {
 	var $text;
 	
-	function SimpleStyle ($input) {
+	function __construct ($input) {
 		$this->text = $input;
 	}
 	

@@ -6,7 +6,7 @@
 		<title>Simple Style</title>
 		<style>
 			body { 
-				font-size: 12px;
+				font-size: 14px;
 			}
 			
 			code {
@@ -14,7 +14,7 @@
 			}
 			
 			table {
-				font-size: 12px;
+				font-size: 14px;
 			}
 
 			td {
@@ -76,7 +76,7 @@
 	if (isset($text)) {
 		require("SimpleStyle.class.php");
 
-		$simpletext =& new SimpleStyle($text);
+		$simpletext = new SimpleStyle($text);
 		//$simpletext->sanitize();
 		//$simpletext->htmlize();
 		//$simpletext->stylize();
