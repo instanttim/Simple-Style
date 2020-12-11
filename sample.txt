@@ -1,0 +1,36 @@
+**Styling and Links:**
+I *happened* upon a link:http://example.com in the night.
+I happened upon "my favorite link":http://example.com in the **night**.
+*I **happened** _upon_ http://example.com in the night.*
+
+**Quotes:**
+'lo world.
+The object is 9'2" long by about 2'9" wide.
+"double quotes 'with quotes' is the **proper** way to nest quotes," said Tim 'Knuckles' Martin.
+_Notice_: If the quote is by itself ' then it doesn't convert it, but i am smart enough to figure out years like '04.
+
+**Dashes:**
+The best years--in my re-thought opinion--where from 1975-2004. His tombstone stated 1975- , but we knew he was as good as *dead*.
+
+**Lists:**
+
+- something
+- something else
+- a thing
+
+# i like numbers
+# don't you?
+# weeeeeeeee
+
+BUG?: empty lines are required before and after a list.
+
+**Fractions and Ordinals:**
+The 1st half of the class took 1/4 of the earnings for the year.
+
+BUG: fractional ordinals like 12/256ths don't work even though 12/256 does work.
+BUG: plural ordinals don't work, so I can't say, "we split it into 5ths."
+
+**Images:**
+[http://talking-dog.com/images/tdog.gif]
+
+Check out my little dog: ["Cute!":10x10:http://talking-dog.com/images/tdog.gif]
